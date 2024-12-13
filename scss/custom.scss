@@ -116,3 +116,67 @@ section:not(#hero):not(#cta){
     transform: scale(1.1);
   }
 }
+<style>
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+    background-color: #f4f4f4; /* Light background for contrast */
+}
+
+.content {
+    text-align: center; /* Center text */
+}
+
+.content img {
+    width: 80%; /* Set image width to 80% of the container */
+    max-width: 600px; /* Maximum width for larger screens */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: rounded corners */
+}
+
+h3 {
+    margin-top: 20px; /* Space above heading */
+    color: #333; /* Dark text color */
+}
+
+p {
+    max-width: 600px; /* Limit paragraph width */
+    line-height: 1.6; /* Improve readability */
+    color: #666; /* Gray text color */
+}
+</style>
+<style>
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.hero-banner {
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center horizontally */
+    justify-content: flex-start; /* Align items to the top */
+    background-color: #FFA500; /* Orange background */
+    color: white; /* White text color */
+    text-align: center; /* Center text alignment */
+    padding-top: 20px; /* Space from the top */
+}
+
+.hero-banner h1 {
+    font-size: 4rem; /* Large font size */
+    margin: 0; /* Remove default margin */
+}
+</style>
+</head>
+<body>
+<div class="hero-banner">
+<h1>Works</h1>
+</div>
+</body>
+</html>

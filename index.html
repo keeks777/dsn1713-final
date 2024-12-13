@@ -4,16 +4,232 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
-    <link rel="icon" type="image/x-icon" href="images/favicon/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="images/favicon (1)/favicon-96x96.png">
     <link rel="stylesheet" href="css/custom.css">
 </head>
 
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
-          <div class="container-lg">
-            <a class="navbar-brand text-light d-flex align-items-center" href="#">
-              
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Homepage</title>
+      <style>
+          body {
+              margin: 0;
+              font-family: Arial, sans-serif;
+          }
+          .navbar {
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              background-color: #333;
+              padding: 10px 20px;
+          }
+          .logo {
+              color: white;
+              font-size: 24px;
+              font-weight: bold;
+          }
+          .nav-links {
+              display: flex;
+              gap: 20px;
+          }
+          .nav-links a {
+              color: white;
+              text-decoration: none;
+              font-size: 18px;
+          }
+          .nav-links a:hover {
+              text-decoration: underline;
+          }
+          .hero-banner {
+              background-color: #ffa500; /* Hero banner color */
+              color: white; /* Text color */
+              text-align: center; /* Center text */
+              padding: 100px 20px; /* Padding for the banner */
+              position: relative; /* Position relative for absolute positioning of text */
+          }
+          .hero-banner h1 {
+              margin: 0; /* Remove default margin */
+              font-size: 48px; /* Large heading size */
+          }
+          .hero-banner p {
+              font-size: 24px; /* Subheading size */
+          }
+          .learn-more-button {
+              background-color: white; /* Button background color */
+              color: orange; /* Button text color */
+              border: none; /* No border */
+              padding: 10px 20px; /* Padding for the button */
+              font-size: 18px; /* Font size for button text */
+              cursor: pointer; /* Pointer cursor on hover */
+              margin-top: 20px; /* Space above the button */
+              border-radius: 5px; /* Rounded corners for the button */
+          }
+          .learn-more-button:hover {
+              background-color: rgb(132, 103, 103); /* Change background on hover */
+          }
+      </style>
+  </head>
+  <body>
+      <nav class="navbar">
+          <div class="logo">Suzanne Collins</div>
+          <div class="nav-links">
+              <a href="second-page.html">About Me</a>
+              <a href="third-page copy.html">Works</a>
+          </div>
+      </nav>
+  
+      <div class="hero-banner">
+          <h1>Dive into the World of Suzanne Collins!</h1>
+          <p>Discover the Worlds of Suzanne Collins.</p>
+          <p>Immerse yourself in thrilling dystopian adventures and captivating children's fantasies from the #1 New York Times bestselling author of The Hunger Games trilogy.</p>
+          <button class="learn-more-button">Learn More</button>
+      </div>
+  </body>
+  </html>
+
+<section id="about-suzanne">
+    <div class="container-lg">
+        <div class="row d-flex justify-content-center text-center pt-5">
+            <div class="col-lg-12">
+                <h1>About Suzanne Collins</h1>
+                <p><strong>Award-winning author of The Hunger Games and The Underland Chronicles</strong></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-lg">
+        <div class="row">
+            <div class="col-12 col-lg-4 mb-4 mb-lg-0">
+                <div class="text-center">
+                    <img src="images/BF43AFDFF743E49D6E6CF709A91A99DB9CC61869.jpeg" alt="Television Writing" width="100" height="auto" class="mb-3">
+                    <h3>Television Roots</h3>
+                    <p>Began her career writing for children's television shows on Nickelodeon, including Emmy-nominated series like Clarissa Explains It All.</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 mb-4 mb-lg-0">
+                <div class="text-center">
+                    <img src="images/HungerGames_Updated_CC.jpg" alt="Literary Career" width="100" height="auto" class="mb-3">
+                    <h3>Literary Success</h3>
+                    <p>Authored multiple bestselling series including The Underland Chronicles and The Hunger Games trilogy, which sold over 100 million copies worldwide.</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4">
+                <div class="text-center">
+                    <img src="images/U.S. Army [Logo][Military Insignia 3D][1.5].png" alt="Military Influence" width="100" height="auto" class="mb-3">
+                    <h3>Military Heritage</h3>
+                    <p>Daughter of a U.S. Air Force lieutenant colonel, her military background deeply influences her storytelling and themes of survival.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Image Section with smaller image -->
+    <div class="container-lg text-center mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-lg-4">
+                <img src="images/suzannecollins-2020-photocredittoddplitt.jpg" alt="Suzanne Collins" class="img-fluid rounded mb-4" style="max-width: 300px;"> <!-- Adjust max-width as needed -->
+            </div>
+        </div>
+        <p>Discover more about Suzanne Collins' journey as a writer and her impact on literature.</p>
+    </div>
+
+    <!-- Learn More Button -->
+    <div class="text-center mt-4 mb-5">
+        <a href="#" class="btn btn-dark btn-lg">Learn More</a>
+    </div>
+</section>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Footer Example</title>
+    <style>
+        footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #f4f4f4;
+            padding: 20px;
+            color: #333;
+        }
+
+        .footer-center {
+            text-align: center;
+            flex-grow: 1;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .footer-left {
+            display: flex;
+            align-items: center;
+        }
+
+        .footer-left h3 {
+            margin-right: 20px;
+            font-size: 18px;
+            font-weight: normal;
+        }
+
+        .learn-more-btn {
+            background-color: #ffa500;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .learn-more-btn:hover {
+            background-color: #000000;
+        }
+
+        .social-icons {
+            display: flex;
+            gap: 15px;
+        }
+
+        .social-icons a {
+            color: #333;
+            text-decoration: none;
+            font-size: 24px;
+            transition: color 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            color: #ffa500;
+        }
+    </style>
+</head>
+<body>
+    <footer>
+        <div class="footer-center">
+            <div class="row d-flex justify-content-center text-center pt-5">
+                <div class="col-lg-12">
             
-       
+            <h3>Services</h3>
+            <p>We provide a variety of services, including book links, interview links, merchandise, and a feedback forum to hear your thoughts on our performance..</p>
+            <button class="learn-more-btn">Learn More</button>
+        </div>
+        <div class="social-icons">
+            <a href="#" class="fab fa-facebook"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+        </div>
+    </footer>
+</body>
+</html>
+
+</body>
+</html>

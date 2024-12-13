@@ -4,13 +4,156 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Works</title>
-    <link rel="icon" type="image/x-icon" href="images/favicon/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="images/favicon (1)/favicon-96x96.png">
     <link rel="stylesheet" href="css/custom.css">
 </head>
 
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+}
+.logo {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+.nav-links a:hover {
+  text-decoration: underline;
+}
+</style>
+</head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
-          <div class="container-lg">
-            <a class="navbar-brand text-light d-flex align-items-center" href="#">
+<nav class="navbar">
+<div class="logo">Suzanne Collins</div>
+<div class="nav-links">
+  <a href="index.html">Home page</a>
+  <a href="third-page copy.html">Works</a>
+</div>
+</nav>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Hero Banner</title>
+      <style>
+          body, html {
+              margin: 0;
+              padding: 0;
+              height: 100%;
+          }
+  
+          .hero-banner {
+              height: 100vh; /* Full viewport height */
+              display: flex;
+              flex-direction: column; /* Stack elements vertically */
+              align-items: center; /* Center horizontally */
+              justify-content: flex-start; /* Align items to the top */
+              background-color: #FFA500; /* Orange background */
+              color: white; /* White text color */
+              text-align: center; /* Center text alignment */
+              padding-top: 20px; /* Space from the top */
+          }
+  
+          .hero-banner h1 {
+              font-size: 4rem; /* Large font size */
+              margin: 0; /* Remove default margin */
+          }
+      </style>
+  </head>
+  
+  <body>
+      <div class="hero-banner">
+          <h1>Works</h1>
+      </div>
+      
+  </body>
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image and Text List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4; /* Light background for contrast */
+        }
+
+        .image-list {
+            display: flex;
+            flex-direction: column; /* Stack items vertically */
+            gap: 20px; /* Space between items */
+        }
+
+        .image-item {
+            display: flex; /* Use flexbox for each item */
+            align-items: center; /* Center items vertically */
+            background-color: white; /* White background for each item */
+            padding: 15px;
+            border-radius: 8px; /* Rounded corners */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        }
+
+        .image-item img {
+            max-width: 150px; /* Set a maximum width for images */
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 5px; /* Rounded corners for images */
+            margin-right: 20px; /* Space between image and text */
+        }
+
+        .image-item p {
+            margin: 0; /* Remove default margin from paragraphs */
+            color: #333; /* Dark text color */
+        }
+    </style>
+</head>
+<body>
+    <div class="image-list">
+        <div class="image-item">
+            <img src="images/image1.jpg" alt="Image 1">
+            <p>This is a description for the first image. It provides context and information about the image displayed.</p>
+        </div>
+        <div class="image-item">
+            <img src="images/image2.jpg" alt="Image 2">
+            <p>This is a description for the second image. It highlights the key features or details relevant to the image.</p>
+        </div>
+        <div class="image-item">
+            <img src="images/image3.jpg" alt="Image 3">
+            <p>This is a description for the third image. It elaborates on what is depicted in the image and its significance.</p>
+        </div>
+    </div>
+</body>
+</html>
+
+  </html>
+  
